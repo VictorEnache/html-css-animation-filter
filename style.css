@@ -59,6 +59,11 @@
     height: 60px;
     background: red;
 }
+
+/* #region esercizio 5 */
+
+/* #endregion esercizio 5 */
+
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
@@ -187,3 +192,49 @@
     width: 60px;
     height: 20px;
 }
+
+/* #region esercizio 12 */
+.ex-12-top-white{
+    animation: destra_sinistra_top 2s infinite;
+}
+
+@keyframes destra_sinistra_top {
+    0%{
+        left: 10%;
+    }
+    25%{
+        left: 30%;
+    }
+    50%{
+        left: 40%;
+    }
+    75%{
+        left: 30%;
+    }
+    100%{
+        left: 10%;
+    }
+}
+
+.ex-12-bottom-white{
+    animation: destra_sinistra_bottom 2s infinite;
+}
+
+@keyframes destra_sinistra_bottom {
+    0%{
+        right: 20%;
+    }
+    25%{
+        right: 40%;
+    }
+    50%{
+        right: 50%;
+    }
+    75%{
+        right: 40%;
+    }
+    100%{
+        right: 20%;
+    }
+}
+/* #endregion esercizio 12 */
