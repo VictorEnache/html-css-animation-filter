@@ -70,7 +70,7 @@
 /* #endregion esercizio 6 */
 
 /* #region esercizio 7 */
-.ex-7-img:hover{
+.ex-7-img{
     transition: filter 3s;
 
 }
@@ -80,10 +80,40 @@
 }
 /* #endregion esercizio 7 */
 
+/* #region esercizio 8 */
+.ex-8-img{
+    transition: filter 3s, border-radius 3s;
+
+}
+
+.ex-8-img img{
+    object-fit: cover;
+}
+
+.ex-8-img:hover{
+    filter: grayscale() invert();
+    border-radius: 50%;
+}
+/* #endregion esercizio 8 */
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: filter 3s, border-radius 3s, width 3s;
 }
+
+/* #region esercizio 9 */
+.ex-9-img img{
+    object-fit: cover;
+}
+
+.ex-9-img:hover{
+    filter: grayscale() invert();
+    border-radius: 50%;
+    width: 500px;
+}
+/* #endregion esercizio 9 */
+
 .ex-10-icon {
     font-size: 60px;
 }
