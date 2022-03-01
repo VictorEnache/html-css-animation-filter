@@ -282,7 +282,7 @@
     top: -10px;
     left: 0;
     background: #f5f5f5;
-    width: 60px;
+    width: 0px;
     height: 20px;
     animation: top_grow 10s infinite;  
 }
@@ -294,7 +294,7 @@
     top: 0;
     background: #f5f5f5;
     width: 20px;
-    height: 60px;
+    height: 0px;
     animation: right_grow 10s infinite 3.7s;  
 }
 
@@ -303,7 +303,7 @@
     bottom: -10px;
     right: 0;
     background: #f5f5f5;
-    width: 60px;
+    width: 0px;
     height: 20px;
     animation: bottom_grow 10s infinite 5s;  
 }
@@ -314,10 +314,9 @@
     bottom: 0;
     background: #f5f5f5;
     width: 20px;
-    height: 60px;
+    height: 0px;
     animation: left_grow 10s infinite 8.7s;  
 }
-
 
 /* #region top_grow */
 @keyframes top_grow {
