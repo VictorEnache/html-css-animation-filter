@@ -72,10 +72,11 @@
 /* #region esercizio 7 */
 .ex-7-img:hover{
     transition: filter 3s;
+
 }
 
 .ex-7-img:hover{
-    filter: grayscale();
+    filter: grayscale() invert();
 }
 /* #endregion esercizio 7 */
 
